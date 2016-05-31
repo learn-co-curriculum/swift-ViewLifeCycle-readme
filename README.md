@@ -47,5 +47,6 @@ view.backgroundColor = UIColor.randomColor()
 ```
 
 * I like the idea of having them add print functions to the `viewDidLoad()`, `viewWillAppear(_:)`, and `viewDidAppear(_:)` methods to get a good sense as to when these methods get called.
+* My one concern with having them change the `backgroundColor` is that they (with how the outline is currently  structured) not have seen Classes yet. I'm thinking of moving the Classes unit before this... or maybe not. As it stands, this entire unit will come before Classes. That being said, the student won't yet know what view is and why we can type view where they don't see it anywhere else in the file, and what is this backgroundColor on view. I think I'm more inclined to just have them type it out in `viewDidLoad()` where we tell them that we will explain later what it is.
 
 <a href='https://learn.co/lessons/ViewLifeCycle' data-visibility='hidden'>View this lesson on Learn.co</a>

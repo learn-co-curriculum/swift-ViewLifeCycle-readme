@@ -23,10 +23,29 @@ view.backgroundColor = UIColor.grayColor()
 
 ## What the student can do at this point 
 
-* More stuff
+* Has a general overview of Xcode and is able to create a new project.
+* Knows where to locate the testing file within Xcode.
+* Knows how to navigate to Interface Builder.
+* Knows what a storyboard file is.
+* Has a brief overview of what the Object Library is.
+* Can drag a View Controller onto the canvas.
+* Can locate and drag items from the Object Library.
+* Can locate the Attributes Inspector and change the Background color of Views
+* They will have NOT worked with the ViewController.swift file yet.
 
 ## Outline / Notes
 
-*  stuff
+*  I've included an Xcode project which looks like the following when you run it:
+
+![Film Trivia Screenshot] (http://i.imgur.com/ROtQM5h.png?1)  
+* They can navigate around if they like, but it's not the point of this reading for them to understand what it is we created for them. 
+* See the learning objectives for the order of when things should be presented (feel free to disagree with that order if you think it makes more sense to switch things up).
+* I added an extension to UIColor in the Colors.swift file, this will allow them student to type the following in `viewDidLoad()` to get a sense of how they can manipulate the `backgroundColor` of the `view` of the `ViewController`.
+
+```swift
+view.backgroundColor = UIColor.randomColor()
+```
+
+* I like the idea of having them add print functions to the `viewDidLoad()`, `viewWillAppear(_:)`, and `viewDidAppear(_:)` methods to get a good sense as to when these methods get called.
 
 <a href='https://learn.co/lessons/ViewLifeCycle' data-visibility='hidden'>View this lesson on Learn.co</a>

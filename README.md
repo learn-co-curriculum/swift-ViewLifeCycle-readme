@@ -4,7 +4,7 @@
 
 > Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great. -[Mark Twain](https://en.wikipedia.org/wiki/Mark_Twain)
 
-## Learning Objectives - The student should be able to...
+## Learning Objectives
 
 * Navigate to the View Controller Scene in the `Main.storyboard` file.
 * Connect the View Controller to a `.swift` file.
@@ -22,7 +22,7 @@ You've probably noticed, however, that in every interface, the firs thing you've
 
 Take a look at your file listing. You should see a file called `ViewController.swift`. This is created as part of every new iOS project. It is the code portion of that main view controller you've been creating in every app. By default, it doesn't do anything useful, but that's about to change.
 
-![`ViewController.swift`](.images/xcode01.png)
+![`ViewController.swift`](http://i.imgur.com/6j6uGyg.png)
 
 But before we get started writing code, let's talk about how your application creates views.
 
@@ -32,19 +32,19 @@ Whoo! That was a lot to digest at once, so let's take it piece by piece.
 
 First, take a look at the `Main.storyboard` file. It has a pretty simple interface consisting of four movie poster thumbnails and a piece of film trivia.
 
-![`Main.storyboard`](.images/xcode03.png)
+![`Main.storyboard`](http://i.imgur.com/EPmOGf5.png)
 
 How does that view get associated with a view controller?
 
 It may seem like magic, but it's actually pretty straightforward. Select the **View Controller** in the object listing.
 
-![View Controller](.images/xcode02.png)
+![View Controller](http://i.imgur.com/Ez8HnJZ.png)
 
 Bring up the view controller's Attribute Inspector.
 
 The first section of the Attributes Inspector is called **Custom Class*. This is where you associate a view controller with its corresponding code.
 
-![Custom Class](.images/xcode04.png)
+![Custom Class](http://i.imgur.com/BkslgyD.png)
 
 By default, the **Custom Class** is already set to **ViewController**. This means that the selected view controller is associated with the code in the `ViewController.swift` file, which means that the code you write in that file will determine how the view controller behaves and responds to input, and draws things to the screen.
 
@@ -85,7 +85,7 @@ override func viewDidLoad() {
 
 Now, build and run your app in the simulator. You'll see the debugger output pane pop open at the bottom of Xcode's editor. Notice that right before the view appears, you'll see the message "viewDidLoad() called" logged to the console.
 
-![viewDidLoad() called](.images/xcode05.png)
+![viewDidLoad() called](http://i.imgur.com/VIqSHqH.png)
 
 ### `viewWillAppear(_:)`
 
@@ -109,7 +109,7 @@ class ViewController: UIViewController {
 
 Build and run your application again. Take note of when these two messages (the one for `viewDidLoad()`, and the one for `viewWillAppear(_:)`) are called.
 
-![viewWillAppear(_:) called](.images/xcode06.png)
+![viewWillAppear(_:) called](http://i.imgur.com/qSdKKBG.png)
 
 Take note of the order in which these methods were called. `viewDidLoad()` was called _first_, followed by `willWillAppear(_:)`.
 
@@ -142,7 +142,7 @@ class ViewController: UIViewController {
 
 Build and run your application again. Like before, pay careful attention to the messages in the debugging console. What order do you expect them to appear in? You should see output like this:
 
-![viewDidAppear(_:) called](.images/xcode07.png)
+![viewDidAppear(_:) called](http://i.imgur.com/OiFBFf0.png)
 
 ## Putting It Together
 

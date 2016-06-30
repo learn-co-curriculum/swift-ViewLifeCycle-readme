@@ -1,8 +1,8 @@
 # View Lifecycle
 
-![Drawing](http://d.gr-assets.com/authors/1322103868p5/1244.jpg)
+![Drawing](http://i.imgur.com/y7gEaKO.jpg?1)
 
-> Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great. 
+> Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great. -[Mark Twain](https://en.wikipedia.org/wiki/Mark_Twain)
 
 ## Learning Objectives - The student should be able to...
 

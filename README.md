@@ -40,9 +40,9 @@ It may seem like magic, but it's actually pretty straightforward. Select the **V
 
 ![View Controller](http://i.imgur.com/Ez8HnJZ.png)
 
-Bring up the view controller's Attribute Inspector.
+Bring up the view controller's Identity Inspector.
 
-The first section of the Attributes Inspector is called **Custom Class*. This is where you associate a view controller with its corresponding code.
+The first section of the Identity Inspector is called **Custom Class*. This is where you associate a view controller with its corresponding code.
 
 ![Custom Class](http://i.imgur.com/BkslgyD.png)
 
@@ -193,3 +193,5 @@ view.backgroundColor = UIColor.randomColor()
 `view` is an _instance variable_ that is a part of every view controller. You'll learn more about this in later lessons, but it's important to note that the variable `view` is not random or magical; it's just an instance variable.
 
 <a href='https://learn.co/lessons/ViewLifeCycle' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-ViewLifeCycle-readme'>View LifeCycle</a> on Learn.co and start learning to code for free.</p>

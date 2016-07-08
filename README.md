@@ -111,7 +111,7 @@ Build and run your application again. Take note of when these two messages (the 
 
 ![viewWillAppear(_:) called](http://i.imgur.com/qSdKKBG.png)
 
-Take note of the order in which these methods were called. `viewDidLoad()` was called _first_, followed by `willWillAppear(_:)`.
+Take note of the order in which these methods were called. `viewDidLoad()` was called _first_, followed by `viewWillAppear(_:)`.
 
 If both these methods are called, what's the difference between the two? `viewDidLoad()` is only called _once_, when the view is loaded from a `.storyboard` file. `viewWillAppear(_:)` is called _every time_ the view appears. In this simple apps, that means it is only called once. However, imagine your app has several views, and you can move between them. `viewWillAppear(_:)` is called every time your view is displayed. `viewDidLoad()` is used for initialization that only has to occur once, wherehas `viewWillAppear(_:)` is used for initialization that occurs every time your view is displayed. As you start to write more complicated iOS apps, the differences between the two methods will become much more apparent.
 
@@ -193,3 +193,5 @@ view.backgroundColor = UIColor.randomColor()
 `view` is an _instance variable_ that is a part of every view controller. You'll learn more about this in later lessons, but it's important to note that the variable `view` is not random or magical; it's just an instance variable.
 
 <a href='https://learn.co/lessons/ViewLifeCycle' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-ViewLifeCycle-readme'>View LifeCycle</a> on Learn.co and start learning to code for free.</p>

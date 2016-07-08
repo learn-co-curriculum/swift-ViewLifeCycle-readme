@@ -40,9 +40,9 @@ It may seem like magic, but it's actually pretty straightforward. Select the **V
 
 ![View Controller](http://i.imgur.com/Ez8HnJZ.png)
 
-Bring up the view controller's Attribute Inspector.
+Bring up the view controller's Identity Inspector.
 
-The first section of the Attributes Inspector is called **Custom Class*. This is where you associate a view controller with its corresponding code.
+The first section of the Identity Inspector is called **Custom Class*. This is where you associate a view controller with its corresponding code.
 
 ![Custom Class](http://i.imgur.com/BkslgyD.png)
 

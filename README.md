@@ -18,7 +18,7 @@
 
 So far, you've learned how to create graphical user interfaces for your iOS apps in Xcode. You've probably noticed, though, that your graphical interfaces don't actually do anything. You haven't written any Swift code to make your interface _work_. It's just some labels and buttons!
 
-You've probably noticed, however, that in every interface, the firs thing you've dragged into the canvas is a _view controller_. Far from just being a blank white rectangle on the Interface Builder canvas, that view controller is actually a key piece of the puzzle: It contains the code that makes a view _do something_.
+You've probably noticed, however, that in every interface, the first thing you've dragged into the canvas is a _view controller_. Far from just being a blank white rectangle on the Interface Builder canvas, that view controller is actually a key piece of the puzzle: It contains the code that makes a view _do something_.
 
 Take a look at your file listing. You should see a file called `ViewController.swift`. This is created as part of every new iOS project. It is the code portion of that main view controller you've been creating in every app. By default, it doesn't do anything useful, but that's about to change.
 

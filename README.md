@@ -72,7 +72,7 @@ There is one class, `ViewController`, which represents the view controller in th
 
 ### `viewDidLoad()`
 
-Remember when we talked about how your application is loaded when the user launches it? `viewDidLoad()` is one of the initialization methods that is called on the initial view controller. `viewDidLoad()` is called _before_ anything is shown to the user. It gives your app a chance to set some initial configuration in the view, and do some other minor tasks before the view is shown to the user for the first time. When `viewDidLoad()` is called, the view has been created _in memory_, but it has not yet been displayed.
+Remember when we talked about how your application is loaded when the user launches it? `viewDidLoad()` is one of the initialization methods that is called on the initial view controller. `viewDidLoad()` is called _before_ anything is shown to the user - and it is called only once. It gives your app a chance to set some initial configuration in the view, and do some other minor tasks before the view is shown to the user for the first time. When `viewDidLoad()` is called, the view has been created _in memory_, but it has not yet been displayed.
 
 To see this in action, add a `print()` call to the existing `viewDidLoad()` method, after the call to `super()`. Have it print something like "viewDidLoad() called":
 
@@ -89,7 +89,7 @@ Now, build and run your app in the simulator. You'll see the debugger output pan
 
 ### `viewWillAppear(_:)`
 
-When launching an app and initializing the views, `viewDidLoad()` is the first of several methods called. Once the view has actually been loaded (into memory, from the `.storyboad` file), the Cocoa Touch framework will then call `viewWillAppear(_:)`. This method is called when the view is about to _appear_ (be shown on the screen), but before it is actually displayed. This method allows you to do some further customization.
+When launching an app and initializing the views, `viewDidLoad()` is the first of several methods called. Once the view has actually been loaded (into memory, from the `.storyboad` file), the Cocoa Touch framework will then call `viewWillAppear(_:)`. This method is called when the view is about to _appear_ (be shown on the screen), but before it is actually displayed. This method allows you to do some further customization. Unlike the 'viewDidLoad()', 'viewWillAppear(_:)' can be called multiple times.
 
 By default, your view controller will not override this method. You can add it yourself, though, and it will get called. Add a `viewWillAppear(_:)` method that prints "viewWillAppear(_:) called" to the console. Your complete `ViewController` implementation should look like this when you're done:
 

@@ -4,13 +4,15 @@
 
 > Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great. -[Mark Twain](https://en.wikipedia.org/wiki/Mark_Twain)
 
+## Overview 
+
+In this lesson, we'll discuss and walk through how our application creates views. 
+
 ## Learning Objectives
 
-* Navigate to the View Controller Scene in the `Main.storyboard` file.
-* Connect the View Controller to a `.swift` file.
-* Create the connection between the View Controller in the `Main.storyboard` file with the `ViewController.swift` file by selecting the View Controller then setting its Class in the Identity Inspector to be the `ViewController.swift` file.
-* Explain that the `View` object they can select/modify within the View Controller Scene is directly tied with the `viewDidLoad()` method.
-* Explain that the `viewDidLoad()` is called after the view controller has loaded its view into memory.
+* Connect the View Controller to a `.swift` file
+* Create the connection between the View Controller in the `Main.storyboard` file with the `ViewController.swift` file
+* Explain that the `View` object they can be selected or modified within the View Controller Scene is directly tied with the `viewDidLoad()` method
 * Explain when the `viewWillAppear(_:)`, `viewDidAppear(_:)`, `viewDillDisappear(_:)` and `viewDidDisappear(_:)` methods are called 
 * Change the `backgroundColor` of the `view` 
 
@@ -191,7 +193,5 @@ view.backgroundColor = UIColor.randomColor()
 ```
 
 `view` is an _instance variable_ that is a part of every view controller. You'll learn more about this in later lessons, but it's important to note that the variable `view` is not random or magical; it's just an instance variable.
-
-<a href='https://learn.co/lessons/ViewLifeCycle' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-ViewLifeCycle-readme'>View LifeCycle</a> on Learn.co and start learning to code for free.</p>

@@ -117,7 +117,7 @@ Build and run your application again. Take note of when these two messages (the 
 
 Take note of the order in which these methods were called. `viewDidLoad()` was called _first_, followed by `viewWillAppear(_:)`.
 
-If both these methods are called, what's the difference between the two? `viewDidLoad()` is only called _once_, when the view is loaded from a `.storyboard` file. `viewWillAppear(_:)` is called _every time_ the view appears. In this simple apps, that means it is only called once. However, imagine your app has several views, and you can move between them. `viewWillAppear(_:)` is called every time your view is displayed. `viewDidLoad()` is used for initialization that only has to occur once, wherehas `viewWillAppear(_:)` is used for initialization that occurs every time your view is displayed. As you start to write more complicated iOS apps, the differences between the two methods will become much more apparent.
+If both these methods are called, what's the difference between the two? `viewDidLoad()` is only called _once_, when the view is loaded from a `.storyboard` file. `viewWillAppear(_:)` is called _every time_ the view appears. In this simple app, that means it is only called once. However, imagine your app has several views, and you can move between them. `viewWillAppear(_:)` is called every time your view is displayed. `viewDidLoad()` is used for initialization that only has to occur once, wherehas `viewWillAppear(_:)` is used for initialization that occurs every time your view is displayed. As you start to write more complicated iOS apps, the differences between the two methods will become much more apparent.
 
 ### `viewDidAppear(_:)`
 

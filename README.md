@@ -12,7 +12,7 @@ In this lesson, we'll discuss and walk through how our application creates views
 
 * Connect the View Controller to a `.swift` file
 * Create the connection between the View Controller in the `Main.storyboard` file with the `ViewController.swift` file
-* Explain that the `View` object they can be selected or modified within the View Controller Scene is directly tied with the `viewDidLoad()` method
+* Explain that the `View` object that can be selected or modified within the View Controller Scene is directly tied with the `viewDidLoad()` method
 * Explain when the `viewWillAppear(_:)`, `viewDidAppear(_:)`, `viewDillDisappear(_:)` and `viewDidDisappear(_:)` methods are called 
 * Change the `backgroundColor` of the `view` 
 

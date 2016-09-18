@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5B2193481CFDD28D00B1A50C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2193471CFDD28D00B1A50C /* AppDelegate.swift */; };
-		5B21934A1CFDD28D00B1A50C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2193491CFDD28D00B1A50C /* ViewController.swift */; };
 		5B21934D1CFDD28D00B1A50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B21934B1CFDD28D00B1A50C /* Main.storyboard */; };
 		5B21934F1CFDD28D00B1A50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B21934E1CFDD28D00B1A50C /* Assets.xcassets */; };
 		5B2193521CFDD28D00B1A50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2193501CFDD28D00B1A50C /* LaunchScreen.storyboard */; };
 		5B21935A1CFDEA8A00B1A50C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2193591CFDEA8A00B1A50C /* Colors.swift */; };
+		7D2A5A5D1D8E15EB00B9DA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A5A5C1D8E15EB00B9DA5A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B2193441CFDD28D00B1A50C /* ViewLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2193471CFDD28D00B1A50C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B2193491CFDD28D00B1A50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B21934C1CFDD28D00B1A50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B21934E1CFDD28D00B1A50C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2193511CFDD28D00B1A50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2193531CFDD28D00B1A50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B2193591CFDEA8A00B1A50C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7D2A5A5C1D8E15EB00B9DA5A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5B2193471CFDD28D00B1A50C /* AppDelegate.swift */,
-				5B2193491CFDD28D00B1A50C /* ViewController.swift */,
+				7D2A5A5C1D8E15EB00B9DA5A /* ViewController.swift */,
 				5B2193591CFDEA8A00B1A50C /* Colors.swift */,
 				5B21934B1CFDD28D00B1A50C /* Main.storyboard */,
 				5B21934E1CFDD28D00B1A50C /* Assets.xcassets */,
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					5B2193431CFDD28D00B1A50C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -138,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B21934A1CFDD28D00B1A50C /* ViewController.swift in Sources */,
+				7D2A5A5D1D8E15EB00B9DA5A /* ViewController.swift in Sources */,
 				5B21935A1CFDEA8A00B1A50C /* Colors.swift in Sources */,
 				5B2193481CFDD28D00B1A50C /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ViewLifeCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -268,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.ViewLifeCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -290,6 +293,7 @@
 				5B2193581CFDD28D00B1A50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
